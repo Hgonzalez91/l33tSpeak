@@ -3,10 +3,34 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./css/">
+    <link rel="stylesheet" href="./css/style.css">
     <title>Document</title>
 </head>
+
 <body>
+    <div class="container">
+        <h1>LEET SPEAK TRANSLATOR</h1>
+        <p>To put any of the above in perspective, you can use the Leet Speak Translator below to turn any text you'd like into Leet. This translator converts normal words or text into leet speak. You can even select any of the four levels. The Leet Speak Translator makes it easier to actually talk in leet to others, since you only have to copy and paste text. So go on, get your 1337 on, and start converting!</p>
+
+        <textarea id="insertText" name="" cols="30" rows="10" placeholder="Put in any normal text..."></textarea>
+
+        <div class="form">
+            <label>Basic leet
+                <input id="btnBasic" type="radio" name="1">
+            </label>
+            <label>Intermediate leet
+                <input id="btnIntermediate" type="radio" name="1">
+            </label>
+            <label>Advanced leet
+                <input id="btnAdvanced" type="radio" name="1">
+            </label>
+            <label>Full Retardar leet
+                <input id="btnRetardar" type="radio" name="1">
+            </label>
+        </div>
+
+        <textarea id="obtain" name="" cols="30" rows="10" placeholder="And get l33t here..." disabled></textarea>
+    </div>
     <script src="./js/index.js"></script>
 </body>
 </html>
